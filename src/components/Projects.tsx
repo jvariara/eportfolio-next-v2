@@ -56,23 +56,6 @@ const Projects = () => {
             ))}
           </Tabs>
         </div>
-
-        {/* <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-          {DATA.projects["Web Applications"].map((project, id) => (
-            <BlurFade key={id} delay={BLUR_FADE_DELAY * id}>
-              <ProjectCard
-                href={project.href}
-                key={project.title}
-                title={project.title}
-                description={project.description}
-                tags={project.technologies}
-                links={project.links}
-                video={project.video}
-                image={project.image}
-              />
-            </BlurFade>
-          ))}
-        </div> */}
       </div>
     </section>
   );

@@ -13,7 +13,7 @@ const Skills = () => {
           {Object.entries(DATA.skills).map(([key, value], id) => (
             <div className="flex gap-4 w-full" key={id}>
               <BlurFade delay={BLUR_FADE_DELAY * id}>
-                <h4 className="w-full font-semibold">{key}</h4>
+                <h4 className="w-full font-semibold whitespace-nowrap">{key}</h4>
               </BlurFade>
               <div className="flex flex-wrap gap-1">
                 {value.map((skill, valueId) => (

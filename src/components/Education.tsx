@@ -12,7 +12,7 @@ const Education = () => {
 
         <div className="flex flex-col space-y-4">
           {DATA.education.map((education, id) => (
-            <BlurFade delay={BLUR_FADE_DELAY * id}>
+            <BlurFade delay={BLUR_FADE_DELAY * id} key={id}>
               <EducationCard
                 key={education.school}
                 href={education.href}
