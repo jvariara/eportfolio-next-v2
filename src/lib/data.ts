@@ -50,6 +50,9 @@ export const DATA = {
     ],
     Tools: [
       "Git/GitHub",
+      "Tableau",
+      "Power BI",
+      "SQL Server Management Studio",
       "AWS",
       "Docker",
       "VSCode",
@@ -193,7 +196,63 @@ export const DATA = {
         image: "",
       },
     ],
+    "Data Analysis": [
+      {
+        title: "Data Cleaning in SQL",
+        description:
+          "In this project I went through Nashville Housing data and cleaned it up with SQL queries.",
+        href: "https://github.com/jvariara/DataAnalystProjects/blob/main/NashvilleHousing%20Data%20Cleaning.sql",
+        links: [
+          {
+            type: "GitHub",
+            href: "https://github.com/jvariara/DataAnalystProjects/blob/main/COVID%20Portfolio%20Project.sqlt",
+          },
+        ],
+        technologies: [
+          "MySQL",
+          "SQL Server Management Studio",
+          "CTEs",
+          "Joins",
+        ],
+        image: "",
+        video: "",
+      },
+      {
+        title: "Data Exploration in SQL",
+        description:
+          "In this project I explored COVID-19 data in SQL Server. I used Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types. Looked at Total Cases vs Total Deaths and what percentage of population got covid.",
+        href: "https://github.com/jvariara/DataAnalystProjects/blob/main/COVID%20Portfolio%20Project.sql",
+        links: [
+          {
+            type: "GitHub",
+            href: "https://github.com/jvariara/DataAnalystProjects/blob/main/COVID%20Portfolio%20Project.sql",
+          },
+        ],
+        technologies: [
+          "MySQL",
+          "SQL Server Management Studio",
+          "CTEs",
+          "Joins",
+          "Windows Functions",
+          "Temp Tables",
+        ],
+        image: "",
+        video: "",
+      },
+      {
+        title: "AirBnB Data Analysis",
+        description:
+          "In this project I analyzed a Seattle AirBnB housing price dataset and created a dashboard utilizing that data with visualizations in Tableau.\nSome of the visualizations include Price Per Zipcode and Average Price Per Bedroom.",
+        href: "https://public.tableau.com/app/profile/justin.variara/viz/AirBnBFullProject_17239103813860/Dashboard1",
+        links: [
+          {
+            type: "Website",
+            href: "https://public.tableau.com/app/profile/justin.variara/viz/AirBnBFullProject_17239103813860/Dashboard1",
+          },
+        ],
+        technologies: ["Tableau"],
+      },
+    ],
     "Mobile Applications": [],
-    "Data Analysis": [],
   } as const,
 } as const;
