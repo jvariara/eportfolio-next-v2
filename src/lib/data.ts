@@ -25,7 +25,7 @@ export const DATA = {
     "I'm a Software Developer with a passion for web development with amazing client & user experiences with the use of modern technologies like React, Tailwind CSS and Next.js",
   url: "https://www.justinvariara.com/",
   summary:
-    "I'm a 22 year old from New York with a passion for web development and data analytics. I graduated from the University At Buffalo with a BS in Computer Science and work on difficult engineering problems and learn from talented teams and fellow students.",
+    "I'm a 22 year old from New York with a passion for web development and game development. I graduated from the University At Buffalo with a BS in Computer Science and work on difficult engineering problems and learn from talented teams and fellow students.",
   skills: {
     Languages: [
       "HTML5/CSS3",

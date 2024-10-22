@@ -29,7 +29,7 @@ const Hero = () => {
               <p className="text-lg text-muted-foreground">
                 <Highlighter
                   highlightClassName="bg-inherit text-primary"
-                  searchWords={["web development", "data analytics"]}
+                  searchWords={["web development", "game development", "University At Buffalo", "BS", "Computer Science"]}
                   textToHighlight={DATA.summary}
 
                 />
